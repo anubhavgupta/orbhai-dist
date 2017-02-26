@@ -7,6 +7,12 @@ general:
     only:
       - master
 
+
+dependencies:
+  override:
+    - echo 'NO DEPENDENCIES TO INSTALL'
+
+
 deployment:
   production:
     branch: master
