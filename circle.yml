@@ -1,0 +1,18 @@
+machine:
+  node:
+    version: 6.1.0
+
+general:
+  branches:
+    only:
+      - master
+
+deployment:
+  production:
+    branch: master
+    heroku:
+      appname: orbhai
+
+test:
+  override:
+    - echo 'skip test please'
