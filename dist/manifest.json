@@ -1,0 +1,17 @@
+{
+  "version":"6.2.3",
+  "name": "orbhai Task List",
+  "icons": [
+    {
+      "sizes":"192x192",
+      "href":"images/ico_xxxdpi.png",
+      "type":"image/png",
+      "density":4.0
+    }
+  ],
+  "background_color": "#E7E9EC",
+  "theme_color": "#5A6068",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait"
+}
